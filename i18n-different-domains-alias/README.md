@@ -1,6 +1,6 @@
 # `differentDomains` drops a page's route alias on the domain's own locale
 
-Source: not reported yet.
+Source: nuxt-modules/i18n#4177.
 
 A page with `definePageMeta({ alias: '/' })` is served at `/` on every domain up to `@nuxtjs/i18n` 10.4.1. From 10.5.0, with `differentDomains` and the default `prefix_except_default` strategy, `/` returns 404 on each domain. The page itself still renders at its own path.
 
