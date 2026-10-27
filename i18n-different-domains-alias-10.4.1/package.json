@@ -1,0 +1,14 @@
+{
+  "name": "i18n-different-domains-alias-10.4.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "10.4.1",
+    "nuxt": "4.6.2",
+    "vue": "3.5.44",
+    "vue-router": "5.4.0"
+  }
+}
